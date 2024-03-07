@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <script src="../js/index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+        <nav class="menu navbar navbar-expand-lg navbar-light bg-black">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="../IMG/cheapTravelLogo-removebg-preview.png" alt="" style="width: 150px; height: 80px;"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active navbar-brand" aria-current="page" href="#">Trang chủ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Đơn đặt tour</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Tour trong nước</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Về chúng tôi</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav fs-5 fw-bold ms-auto">
+                  <li class="nav-item"><a href="" class="nav-link link-a">Liên hệ</a></li>
+                  <li class="nav-item "><a href="" class="nav-link link-a"><i class="bi bi-people-fill"></i></a></li>
+              </ul>
+              </div>
+            </div>
+          </nav>
+
+
+
+          <div class="container-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide mb-4" data-bs-ride="carousel">
+              <!-- Carousel Indicators -->
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              
+              <div class="carousel-inner">
+                <!-- Carousel Items -->
+                <div class="carousel-item active">
+                  <img src="../IMG/HoiAn.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../IMG/RuongBacThang.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../IMG/ToaThiChinh.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              
+              <!-- Search Bar - Centered -->
+              <!-- <div class="search search-bar text-center position-absolute top-50 start-50 translate-middle" style="color:white">
+                <table class="search-table" cellpadding="2">
+                    <tr>
+                        <td colspan="3"><input class="form-control form-control-lg" type="text" placeholder="Bạn muốn đi đâu?"default input example"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="date" id="date-input" value="2022-03-03" style="width: 300px;">
+                        </td>
+                        <td>
+                            <select>
+                                <optgroup>
+                                    <option value="">TP.Hồ Chí Minh</option>
+                                    <option value="">Hà Nội</option>
+                                    <option value="">Đà Nẵng</option>
+                                    <option value="">Huế</option>
+                                    <option value="">Quy Nhơn</option>
+                                    <option value="">Cần Thơ</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-secondary btn-info" id="search-button">Tìm kiếm</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+             -->
+              <!-- Carousel Controls -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          
+          <div class="container-fluid m-xxl-1">
+            <div class="row mb-4">
+              <div class="col-12">
+                <h2 class="bg-warning text-white text-center p-3">Tour trong nước</h2>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-lg-4  col-sm-4">
+                <img src="../IMG/an-giang-6902779_1280.jpg" alt="Ảnh 1" class="img-fluid">
+              </div>
+              <div class="col-lg-4  col-sm-4">
+                <img src="../IMG/ethnic-girls-4522623_1280.jpg" alt="Ảnh 2" class="img-fluid">
+              </div>
+              <div class="col-lg-4  col-sm-4">
+                <img src="../IMG/hue-city-5151869_1280.jpg" alt="Ảnh 3" class="img-fluid">
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-lg-4  col-sm-4">
+                <img src="../IMG/market-4824802_1280.jpg" alt="Ảnh 4" class="img-fluid">
+              </div>
+              <div class="col-lg-4  col-sm-4">
+                <img src="../IMG/religion-4971688_1280.jpg" alt="Ảnh 5" class="img-fluid">
+              </div>
+              <div class="col-lg-4  col-sm-4">
+                <img src="../IMG/river-4705974_1280.jpg" alt="Ảnh 6" class="img-fluid">
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-lg-4  col-sm-4">
+                <img src="../IMG/truong-tien-bridge-4824744_1280.jpg" alt="Ảnh 7" class="img-fluid">
+              </div>
+              <div class="col-lg-4  col-sm-4">
+                <img src="../IMG/vietnam-2158396_1280.jpg" alt="Ảnh 8" class="img-fluid">
+              </div>
+              <div class="col-lg-4  col-sm-4">
+                <img src="../IMG/vietnam-4502930_1280.jpg" alt="Ảnh 9" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+          
+          <div>
+            <h2 class="bg-warning text-white p-3 text-center">Tour nổi bật</h2>
+            <div class="row mb-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                  <img src="../IMG/HaLong/halong.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                      <h5 class="card-title">Hạ Long</h5>
+                      <p class="card-text"> Nằm ở tỉnh Quảng Ninh, vịnh Hạ Long là một quần thể đá và đảo đá vô cùng ấn tượng. Vịnh có 
+                        hơn 1.600 đảo đá lạ mắt, nơi hình thành ra các hòn đảo, hang động và cảnh quan độc đáo.</p>
+                      <h4 class="card-price text-warning">Giá: 3.500.000đ</h4>
+                      <a href="../HTML/halong.html" class="btn btn-secondary">Xem chi tiết</a>
+                  </div>
+              </div>
+              </div>            
+                    <div class="col-lg-3  col-sm-6">
+                        <div class="card">
+                            <img src="../IMG/DuongPhoHoiAn.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Hội An</h5>
+                                <p class="card-text">Hội An nơi mà cuộc sống cứ bình lặng như thế. Hội An nơi mà dường như dòng chảy vô tình của thời gian chẳng thể nào vùi lấp đi cái không khí cổ xưa. Những mái ngói cũ phủ đầy rêu phong, những con đường ngập trong sắc đỏ của đèn lồng, những bức hoành phi được chạm trổ tinh vi, tất cả như đưa ta về với một thế giới của vài trăm năm trước. </p>
+                                <h4 class="card-price text-warning">Giá: 5.500.000đ</h4>
+                                <a href="../HTML/hoian.html" class="btn btn-secondary">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-sm-6">
+                        <div class="card">
+                            <img src="../IMG/da-lat-tu-tren-cao.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Đà Lạt</h5>
+                                <p class="card-text">Với nhiều cảnh đẹp tự nhiên và văn hóa, con người, đặc sản độc đáo, Đà Lạt không chỉ là 1 điểm đến du lịch hấp dẫn mà còn là một nơi để bạn thả mình, thư giãn và tìm lại sự cân bằng trong cuộc sống. Hãy gạt bỏ những áp lực hàng ngày và đặt chân đến Đà Lạt và tận hưởng những trải nghiệm tuyệt vời nơi “thành phố mù sương”.</p>
+                                <h4 class="card-price text-warning">Giá: 2.700.000đ</h4>
+                                <a href="../HTML/dalat.html" class="btn btn-secondary">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-sm-6">
+                        <div class="card">
+                            <img src="../IMG/da-nang.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Đà Nẵng</h5>
+                                <p class="card-text">Đà Nẵng, thành phố biển ở miền Trung Việt Nam, nổi tiếng với bãi biển đẹp như Bãi Bắc, Mỹ Khê và Non Nước. Thành phố còn có các công trình kiến trúc độc đáo như cầu Rồng và Đại Nội. Đà Nẵng cũng nổi tiếng với ẩm thực đặc sản như bánh xèo, mỳ Quảng và nem lụi. Với vẻ đẹp tự nhiên và di sản văn hóa, Đà Nẵng là điểm đến hấp dẫn cho du khách.</p>
+                                <h4 class="card-price text-warning">Giá: 6.500.000đ</h4>
+                                <a href="../HTML/danang.html" class="btn btn-secondary">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col-lg-3  col-sm-6">
+                        <div class="card">
+                            <img src="../IMG/HaNoi/quãng trường Ba Đình.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Hà Nội</h5>
+                                <p class="card-text">Hà Nội nơi chất chứa rất nhiều bản sắc văn hóa lâu đời, các địa điểm du lịch ở Hà Nội không chỉ mang đến một cảm giác hoài niệm về lịch sử nghìn năm văn hiến mà còn gây ấn tượng bởi không khí sầm uất của 36 phố phường cùng với các di tích lịch sử nổi tiếng với hơn 600 đền, chùa, cùng nhiều công trình văn hóa khác tạo nên một bản sắc rất riêng. </p>
+                                <h4 class="card-price text-warning">Giá: 6.500.000đ</h4>
+                                <a href="../HTML/hanoi.html" class="btn btn-secondary">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-sm-6">
+                        <div class="card">
+                            <img src="../IMG/Sapa/tháp Fansipan.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Sa Pa</h5>
+                                <p class="card-text">Sa Pa thường nằm ở độ cao trung bình 1500 đén 1800 m so với mặt nước biển do đó nơi đây luôn chìm trong làn mây bồng bềnh. Khi đến đây du khách có thể tận hưởng không khí trong lành, sự yên bình giản dị của một vùng đất phía Tây Bắc, chiêm ngưỡng những vẻ đẹp hoang sơ của những ruộng bậc thang, thác nước, … , khám phá những nét đẹp văn hóa của các dân tộc trên núi như : H’Mong đen, Tày, …</p>
+                                <h4 class="card-price text-warning">Giá: 4.500.000đ</h4>
+                                <a href="../HTML/sapa.html" class="btn btn-secondary">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-sm-6">
+                        <div class="card">
+                            <img src="../IMG/CanTho/chợ nổi Cái Răng.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Cần Thơ</h5>
+                                <p class="card-text">Cần Thơ là điểm dừng chân lý tưởng cho những ai muốn khám phá khu vực miền Tây sông nước. Khi đến đây du khách vừa có thể cảm nhận nét kiêu sa của khu đô thị sầm uất Miền Tây, vừa có thể trải nghiệm vẻ đẹp bình dị của chợ nổi, nét văn hóa hiền hòa, chất phác của con người nơi đây.</p>
+                                <h4 class="card-price text-warning">Giá: 1.300.000đ</h4>
+                                <a href="../HTML/cantho.html" class="btn btn-secondary">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-sm-6">
+                      <div class="card">
+                          <img src="../IMG/VungTau/bờ biển.jpg" alt="" class="card-img-top">
+                          <div class="card-body">
+                              <h5 class="card-title">Vũng Tàu</h5>
+                              <p class="card-text">Vũng Tàu nơi có cát vàng biển xanh, cùng vô vàn món ngon hấp dẫn từ hải sản đến bánh khọt, một khách sạn ở Vũng Tàu hẳn là địa chỉ "đi trốn" không thể hoàn hảo hơn. Cho một con thèm biển bất chợt, nếu bạn chẳng muốn đi xa mệt nhọc thì sao không dừng chân nơi phố biển và thoải mái tận hưởng kì nghỉ của mình!</p>
+                              <h4 class="card-price text-warning">Giá: 2.900.000đ</h4>
+                              <a href="../HTML/vungtau.html" class="btn btn-secondary">Xem chi tiết</a>
+                          </div>
+                      </div>
+                  </div>
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                  <div class="col-lg-3  col-sm-6">
+                      <div class="card">
+                          <img src="../IMG/phuyen/phuyen.jpg" alt="" class="card-img-top">
+                          <div class="card-body">
+                              <h5 class="card-title">Phú Yên</h5>
+                              <p class="card-text">Phú Yên, hùng quái trong sự ban tặng của thiên nhiên, tỏa sáng bằng những khung cảnh tuyệt đẹp và hiếm có. Đây là địa điểm tuyệt đẹp</p>
+                              <h4 class="card-price text-warning">Giá: 3.400.000đ</h4>
+                              <a href="../HTML/phuyen.html" class="btn btn-secondary">Xem chi tiết</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3  col-sm-6">
+                      <div class="card">
+                          <img src="../IMG/khanhhoa/khanhhoa.jpg" alt="" class="card-img-top">
+                          <div class="card-body">
+                              <h5 class="card-title">Khánh Hòa</h5>
+                              <p class="card-text">Bình Ba, một hòn đảo quân sự của Việt Nam, đẹp đến nao lòng mà còn lạ, lạ với tôi - một công dân Việt Nam. Không những thế đây còn là 
+                                Thành Phố biển đẹp nhất Việt Nam
+                              </p>
+                              <h4 class="card-price text-warning">Giá: 3.300.000đ</h4>
+                              <a href="../HTML/khachhoa.html" class="btn btn-secondary">Xem chi tiết</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3  col-sm-6">
+                      <div class="card">
+                          <img src="../IMG/quynhon/binhdinhanh.jpg" alt="" class="card-img-top">
+                          <div class="card-body">
+                              <h5 class="card-title">Quy Nhơn</h5>
+                              <p class="card-text">Quy Nhơn là một thành phố và cũng là trung tâm hành chính của tỉnh Bình Định, nằm ở miền Trung Việt Nam. Thành phố này có sự kết hợp hài hòa giữa vẻ 
+                              đẹp tự nhiên hùng vĩ, di sản văn hóa lâu dài và không khí trấn an.</p>
+                              <h4 class="card-price text-warning">Giá: 4.500.000đ</h4>
+                              <a href="../HTML/quynhon.html" class="btn btn-secondary">Xem chi tiết</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3  col-sm-6">
+                      <div class="card">
+                          <img src="../IMG/hagiang/hagianganh.jpg" alt="" class="card-img-top">
+                          <div class="card-body">
+                              <h5 class="card-title">Hà Giang</h5>
+                              <p class="card-text">Hà Giang - Chuyến đi của những người trẻ luôn mơ về cực Bắc. Đây là địa điểm khá thú vị và mới mẻ, có phong cảnh tuyệt đẹp</p>
+                              <h4 class="card-price text-warning">Giá: 3.900.000đ</h4>
+                              <a href="../HTML/hagiang.html" class="btn btn-secondary">Xem chi tiết</a>
+                          </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+        <footer class="container-fluid">
+        </footer>
+</body>
+</html>

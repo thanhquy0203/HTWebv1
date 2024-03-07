@@ -1,0 +1,33 @@
+.custom-image {
+    max-width: 100%;
+    height: auto;
+  }
+  .tour-overview {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .tour-image {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .tour-info {
+    flex: 1;
+  }
+  
+  .tour-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .tour-info p {
+    margin-bottom: 10px;
+  }
+  
+  .tour-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
